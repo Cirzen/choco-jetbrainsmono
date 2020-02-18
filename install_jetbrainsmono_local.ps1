@@ -1,0 +1,1 @@
+choco install jetbrainsmono -s "'.;https://chocolatey.org/api/v2/'"
