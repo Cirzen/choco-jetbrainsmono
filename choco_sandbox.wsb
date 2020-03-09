@@ -1,0 +1,11 @@
+<Configuration>
+    <MappedFolders>
+        <MappedFolder>
+        <HostFolder>C:\Temp\choco-jetbrainsmono</HostFolder>
+        <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+</MappedFolders>
+<LogonCommand>
+    <Command>%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "C:\users\wdagutilityaccount\desktop\choco-jetbrainsmono\install_chocolatey.ps1"</Command>
+</LogonCommand>
+</Configuration>
