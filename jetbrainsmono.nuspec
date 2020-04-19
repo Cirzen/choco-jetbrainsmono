@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <dependencies> 
       <dependency id="chocolatey-font-helpers.extension" version="0.0.2" /> 
     </dependencies>
@@ -50,10 +50,10 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <docsUrl>https://www.jetbrains.com/lp/mono/</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/JetBrains/JetBrainsMono/issues</bugTrackerUrl>
-    <tags>jetbrainsmono font fontligatures</tags>
+    <tags>jetbrains jetbrains-mono mono jetbrainsmono font fontligatures</tags>
     <summary>A typeface made for developers</summary>
     <description>More about font features and design can be found on [its official page](https://www.jetbrains.com/lp/mono/). </description>
-    <releaseNotes>https://github.com/JetBrains/JetBrainsMono/releases/tag/v1.0.4</releaseNotes>
+    <releaseNotes>https://github.com/JetBrains/JetBrainsMono/releases/tag/v1.0.5</releaseNotes>
     <!-- =============================== -->      
 
 
