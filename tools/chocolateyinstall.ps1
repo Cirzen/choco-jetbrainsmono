@@ -7,9 +7,9 @@
 $ExitCode = 0
 $PackageName = "JetBrainsMono"
 
-$FontUrl = 'https://github.com/JetBrains/JetBrainsMono/releases/download/v2.002/JetBrainsMono-2.002.zip'
+$FontUrl = 'https://github.com/JetBrains/JetBrainsMono/releases/download/v2.225/JetBrainsMono-2.225.zip'
 $ChecksumType = 'sha256';
-$Checksum = '568FF44A4495773C5D204524E1A8442649B4B53B94E21E1A7D784289C2A19A51';
+$Checksum = '03B2E2C0E3285703A204B6EFBE2D277BF568E0BB53A395E9F4E74E9B77C4AEB2';
 
 $TempInstallPath = Join-Path $Env:Temp $PackageName
 
