@@ -15,7 +15,7 @@ $TempInstallPath = Join-Path $Env:Temp $PackageName
 
 Install-ChocolateyZipPackage -PackageName $PackageName -url $FontUrl -unzipLocation $TempInstallPath -ChecksumType $ChecksumType -Checksum $Checksum
 
-$FontFiles = Get-ChildItem $TempInstallPath -Recurse -Filter *.ttf -File
+$FontFiles = Get-ChildItem $TempInstallPath -Recurse -Filter *.ttf -Exclude *wght* -File
 $FontCount = @($FontFiles).Count
 
 $SuccessCount = Install-ChocolateyFont -Paths @($FontFiles.FullName) -Multiple
